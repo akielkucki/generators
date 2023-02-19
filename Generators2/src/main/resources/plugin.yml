@@ -1,0 +1,9 @@
+name: GungennsGenerators
+version: '${project.version}'
+main: com.gungenns.Main
+api-version: 1.19
+commands:
+  generator:
+    description: Main generator creation command
+  reloadGenerators:
+    description: reload this plugin
