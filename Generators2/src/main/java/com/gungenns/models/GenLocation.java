@@ -4,6 +4,7 @@ public class GenLocation {
     private double x,y,z;
     private String world;
     private String GUID;
+    private boolean dropped;
 
     public GenLocation(double x, double y, double z, String world, String GUID) {
         this.x = x;
@@ -54,4 +55,11 @@ public class GenLocation {
     }
 
 
+    public void setDropped(boolean dropped) {
+        this.dropped = dropped;
+    }
+
+    public boolean isDropped() {
+        return dropped;
+    }
 }

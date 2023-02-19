@@ -117,7 +117,7 @@ public class JsonHandler {
         }
         return "[{}]";
     }
-    List<Location> parsedLocations;
+    public List<Location> parsedLocations;
     String parsedLocationGUID;
     public void parseLocationsJson(String filename, boolean forGenerator) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
